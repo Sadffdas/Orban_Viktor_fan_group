@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<<<<<<< HEAD
+    
 <style>
     .pirosbetu{
         color: red;
@@ -13,6 +14,9 @@
         background-color: yellow;
     }
 </style>
+=======
+    <title>orbiakiraly</title>
+>>>>>>> 45780183cff6e0ade7224fd37defa15378be1f8f
 </head>
 <body>
     <h1>címsor1</h1>
