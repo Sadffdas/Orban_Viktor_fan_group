@@ -5,9 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    .pirosbetu{
+        color: red;
+    }
+    .sargahatter{
+        background-color: yellow;
+    }
+</style>
 </head>
 <body>
     <h1>címsor1</h1>
     <h3>címsor6</h3>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div>
+        <h2></h2>
+        <p></p>
+    </div>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>ad</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+                <td>asdasdasd</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <img src="" alt="">
+    <b>félkövér</b>
+    <i>dőlt</i>
+    <u>aláhúzás</u>
+    <sub>ads</sub>
+    <sup>asd</sup>
+    <span id="" class="pirosbetu sargahatter" hidden="false">asdasd</span>   
 </body>
 </html>
