@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+table{
+    width: 100%;
+}
+#tablazatcim{
+    color: cornflowerblue;
+    background-color: yellowgreen;
+}
+
+.zoldhatter{
+    background-color: green;
+}
+td:first-child{
+    background-color: pink;
+}
+table > tbody{
+    color: aqua;
+}
+td:last-child{
+    background-color: slategrey;
+}
+td:nth-child(2n){
+    color: black;
+}
