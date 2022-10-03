@@ -1,0 +1,9 @@
+lista=[1,2,3,4,5]
+lista2=lista
+lista2[2]=7
+print(lista[:])
+print(lista2[:])
+lista3=lista[:]
+lista3[3]=7
+print(lista)
+print(lista3)
