@@ -1,0 +1,68 @@
+"""
+#Az osztály diákjainak magassága:
+#   170,193,186,167,175,194,164
+#Adjuk meg névsor szerint hanyadik diák a legalacsonyabb és hanyadik a legmagasabb
+
+lista= [170,193,186,167,175,194,164]
+maximum = lista[0]
+for e in lista:
+    if e > maximum:
+        maximum=e
+nagyobb=0
+for i in range(1,len(lista)):
+    if(lista[i]>maximum):
+        maximum=lista[i]
+        nagyobb=i
+        print(nagyobb +1)
+
+minimum = lista[0]
+for e in lista:
+    if e < minimum:
+        minimum=e
+print(minimum)
+print(maximum)
+"""
+"""
+#az 1. feladatban található magasságok közül hány diák magassága páros szám
+lista = [170,193,186,167,175,194,164]
+#megszámlálás
+parosszam=0
+for i in range(0,len(lista)):
+    if(lista[i] %2 == 0):
+        parosszam=parosszam+1
+print("A diákok közül",parosszam,"páros magas diák van")
+"""
+"""
+# Adjuk meg, hogy mennyi az osztály átlagmagassága
+átlag = [170,193,186,167,175,194,164]
+print("átlagmagasság", sum(átlag)//len(átlag,) )
+"""
+#Adjuk meg, hogy névsor hanyadik diákja 174 cm magas
+"""
+lista= [170,193,186,167,175,194,164]
+n = len(lista)
+ker = 167
+i = 0
+while i < n and lista [i] !=ker:
+    i= i+1
+    if(i == n):
+        print("van" + str(ker) + 'elem')
+        print("helye:",i+1)
+    else:
+        print("nincs")
+        """
+#Van e az osztályban 200 cm es diák
+from socket import IPV6_RTHDR_TYPE_0
+
+
+lista= [170,193,186,167,175,194,164]
+"""
+van = False
+for i in lista:
+    if i == 200:
+        van = True
+if van == False:
+    print("nincs")
+else:
+    print("van")
+"""
